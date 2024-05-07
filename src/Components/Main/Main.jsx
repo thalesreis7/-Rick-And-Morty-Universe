@@ -37,7 +37,7 @@ export default function Main() {
           type="text" 
           placeholder="Busque pelo nome do personagem"
           onChange={(e) => setSearch(e.target.value)}
-        />
+         />
       </S.SecondSection>
       <S.BoxCharacters>
        {filter.map((item)=>(
